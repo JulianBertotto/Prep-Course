@@ -1,0 +1,10 @@
+variable= Una variable es una forma de almacenar un tipo de dato que como dice la palabra, puede variar o cambiar. como una caja vacia en la que se puede poner distintos "datos".
+
+Strings= Es una cadena de letras o números que "la computadora" las lee como texto.ejemplo: 1(número) no es lo mismo que '1'(texto). Siempre van entre comillas("..").
+
+Funciones (argumentos, return)= Una funcion es una linea de codigo que permite "hacer algo". devuelve una acción que nosotros pongamos. Los argumentos sirven como datos variables de la funcion. El return hace que la computadora devuelva una accion especifica. 
+
+Declaraciones if= la declaracion if, significa "si", quiere decir que si se cumple tal orden, ejecute tal codigo. si no (else) ejecuta este otro codigo
+
+
+Valores booleanos (true, false). los valores booleanos son solo 2. true o false (verdadero o falso). como las palabras lo dicen, si tal consicion es verdadera nos devuelve "true" de otro modo nos devuelve "false"
