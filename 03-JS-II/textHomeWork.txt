@@ -1,0 +1,14 @@
+for:
+for es una instruccion que genera un bucle. Significa "para" o "por". Recibe 3 parametros y lo que hace es cumplir 
+una condicion mientras el bucle se cumpla, es decir mientras sea true.
+
+operadores logicos:
+
+&&: se traduce como "Y". Es decir "si se cumple x condicion "Y" esta otra condicion, ejecutar tal codigo". ambas
+deben ser verdad para que el codigo sea verdadero y se ejecute el codigo que queremos.
+
+||: se llama "or" y se traduce como "o". Quiere decir " si se cumple tal condicion "O" esta otra condicion, ejecutar
+tal codigo". Si alguna de las dos es verdad, el resultado es verdad.
+
+!= Significa "Not", traducido como "No". Podriamos recordarlo como "distinto de", ejemplo: !true quedaria
+en false.
