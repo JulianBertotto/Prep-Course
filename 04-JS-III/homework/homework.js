@@ -162,7 +162,7 @@ function empiezaConNueve(n) {
   //Desarrolle una función que recibe como parámetro un número entero n. Debe retornar true si el entero 
   //inicia con 9 y false en otro caso.
   //Escribe tu código aquí:
-  if (arguments.includes(9)){
+  if (n.toStrings){
     return true;
   }else{
     return false;
@@ -175,14 +175,17 @@ function todosIguales(arreglo) {
   //retornar true, caso contrario retornar false.
   //Escribe tu código aquí:
   //[2,2,2,2]
+  let short=[];
   for (var i=0; i<arreglo.length; i++){
-    if(i !== i++){
+    if(arreglo[i]===arreglo[0]){
+      short.push(arreglo[i])
+    }
+  }
+  if(short.length<arreglo.length){
       return false;
     }else{
       return true;
     }
-  }
-  
 } 
 
 
@@ -191,6 +194,12 @@ function mesesDelAño(array) {
   // "Enero", "Marzo" y "Noviembre", guardarlo en nuevo array y retornarlo.
   //Si alguno de los meses no está, devolver: "No se encontraron los meses pedidos"
   // Tu código:
+  let newArray= array.filter(index=>index==='Enero'||index==='Marzo'||index==='Noviembre');
+  if(newArray.length<3){
+    return 'No se encontraron los meses pedidos'
+  }else{
+    return newArray;
+  }
 }
 
 
